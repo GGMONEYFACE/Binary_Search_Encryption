@@ -17,3 +17,13 @@ plaintext = input("Enter a string to encrypt: ")
 #
 #The hardest part of this project is going to be creating a method of reversing the operations of the 
 #BST encoding on trees that aren't full binary trees.
+
+
+#First attempt at Full Binary (FB) Tree encoding
+def split_string(string):
+    split_string = []
+    for i in range(0, len(string)):
+        split_string.append(string[i])
+    return split_string
+
+print(split_string(plaintext))
